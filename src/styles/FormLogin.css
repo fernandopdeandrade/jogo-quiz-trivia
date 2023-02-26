@@ -1,0 +1,43 @@
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+form input {
+  border: none;
+  font-size: 20px;
+  margin: 10px;
+  outline: none;
+  padding: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+form input:hover {
+  background-color: rgb(206, 169, 169);
+}
+
+form button {
+  border: none;
+  box-shadow: 0 0 5px 5px white;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  transition: all ease-in-out 0.3s;
+  width: 90%;
+}
+
+form button:hover {
+  box-shadow: 0 0 10px 10px rgb(238, 255, 0);
+}
+
+form button:active {
+  box-shadow: 0 0 10px 10px rgb(252, 1, 1);
+  color: black;
+  transform: scale(0.9);
+}

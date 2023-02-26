@@ -1,0 +1,141 @@
+:root {
+
+  --text-shadow: 0 0 10px white , 0 0 20px white , 0 0 40px cyan , 0 0 80px cyan;
+}
+
+.feedBack {
+  align-items: center;
+  background-attachment: fixed;
+  background-image: url('https://i.ibb.co/k1k56tr/fundo-interroga-o.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.messageFeedback {
+  background-color: rgba(0, 0, 0, 0.884);
+  border-radius: 10px;
+  box-shadow: 0 0 20px white;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  width: 70%;
+}
+
+.messageFeedback h1 {
+  animation: loading 1s infinite;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
+
+.messageFeedback h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
+
+.scoreAssertions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.assertions {
+  display: flex;
+}
+
+.assertions p, .score p {
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  text-shadow: var(--text-shadow);
+}
+
+.messageFeedback button {
+  animation: colorMove 1s infinite;
+  background-color: rgba(0, 0, 0, 0.884);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  transition: all ease-in-out 0.3s;
+}
+
+.messageFeedback button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid cyan;
+  color: cyan;
+  scale: 1.1;
+  text-shadow: var(--text-shadow);
+}
+
+.messageFeedback button:active {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid cyan;
+  box-shadow: 0 0 20px cyan;
+  color: cyan;
+  scale: 1;
+}
+
+@keyframes colorMove {
+
+  0% {
+    color: white;
+    text-shadow: var(--text-shadow);
+  }
+
+  50% {
+    color: cyan;
+    text-shadow: var(--text-shadow);
+  }
+
+  100% {
+    color: rgb(251, 255, 0);
+    text-shadow: var(--text-shadow);
+  }
+}
+
+
+@keyframes loading {
+
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

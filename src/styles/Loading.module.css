@@ -1,0 +1,30 @@
+.loading {
+  align-items: center;
+  animation: loading 0.8s infinite;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  text-shadow: 0 0 10px white , 0 0 20px white , 0 0 40px cyan , 0 0 80px cyan;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+@keyframes loading {
+
+  0% {
+    font-size: 50px;
+  }
+
+  50% {
+    font-size: 70px;
+  }
+
+  100% {
+    font-size: 50px;
+  }
+}

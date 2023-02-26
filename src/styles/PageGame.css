@@ -1,0 +1,13 @@
+.pageGameDiv {
+  background-attachment: fixed;
+  background-image: url('https://i.ibb.co/k1k56tr/fundo-interroga-o.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 12px;
+  height: 100vh;
+  line-height: 1.5;
+  padding: 0;
+  width: 100%;
+}

@@ -1,0 +1,142 @@
+.divRanking {
+  align-items: center;
+  background-image: url('https://i.ibb.co/k1k56tr/fundo-interroga-o.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  margin-bottom: 20px;
+  top: 0;
+  width: 100%;
+}
+
+.infoRanking {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.849);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 70px;
+  padding: 40px;
+  width: 60%;
+}
+
+.divRanking h1 {
+  animation: moving 1s infinite;
+  color: white;
+  font-size: 50px;
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+  width: 50%;
+}
+
+h2 {
+  font-size: 20px;
+
+  /* border-bottom: 1px solid white; */
+  padding: 5px;
+}
+
+@keyframes moving {
+
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.namePictureScore {
+  align-items: center;
+  background-color: rgba(83, 82, 82, 0.301);
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 30px;
+  width: 80%;
+}
+
+.playerRanking {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-shadow: 0 0 10px white;
+}
+
+.playerRanking strong {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.playerScore {
+  align-items: center;
+  border-bottom: 1px solid white;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+  text-shadow: 0 0 10px white;
+  width: 100%;
+}
+
+.playerScore strong {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.infoRanking button {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  height: 40px;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+  width: 300px;
+}
+
+.infoRanking button:hover {
+  background-color: rgb(0, 26, 255);
+  color: white;
+  scale: 1.03;
+}
+
+.infoRanking button:active {
+  box-shadow: 5px 5px 10px 0 white;
+  scale: 0.9;
+}

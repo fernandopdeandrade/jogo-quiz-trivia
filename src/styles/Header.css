@@ -1,0 +1,67 @@
+header {
+  align-items: center;
+  background-color: rgba(238, 130, 41, 0.959);
+  color: white;
+  display: flex;
+  font-size: 30px;
+  height: 110px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header button {
+  border: none;
+  box-shadow: 0 0 10px 10px white;
+  cursor: pointer;
+  margin: 30px;
+  transition: all ease-in-out 0.3s;
+}
+
+button img {
+  height: 40px;
+  width: 40px;
+}
+
+header button:hover {
+  transform: scale(1.1);
+}
+
+header button:active {
+  transform: scale(0.9);
+}
+
+.nameHash {
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.nameHash h2 {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nameHash img {
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+  height: 80px;
+  width: 80px;
+}
+
+.score {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+
+.score h3 {
+  font-size: 20px;
+  padding: 10px;
+}

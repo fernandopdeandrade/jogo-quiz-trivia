@@ -1,0 +1,124 @@
+.correct {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.wrong {
+  border: 3px solid red;
+}
+
+.pageGameDiv {
+  height: 100%;
+  left: 0;
+  margin-top: 100px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.pageGameDiv h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+  width: 100%;
+}
+
+.divQuestions {
+  background-color: rgba(0, 0, 0, 0.877);
+  border-radius: 10px;
+  box-shadow: 0 0 10px white;
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+  width: 80%;
+}
+
+.pageGameDiv h2 {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+  width: 70%;
+}
+
+.answerButton {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  font-weight: 700;
+  height: 50px;
+  justify-content: center;
+  list-style: none;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+  width: 50%;
+}
+
+.answerButton:hover {
+  background-color: #545a69;
+  color: white;
+  scale: 1.05;
+}
+
+.answerButton:active {
+  background-color: #282c34;
+  color: white;
+  scale: 0.9;
+}
+
+.divSpan {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  width: 180px;
+}
+
+.divSpan span, .divSpan strong {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 5px;
+  text-shadow: 0 0 10px white;
+}
+
+.buttonNextQuestions {
+  align-items: center;
+  background-color: rgb(23, 155, 74);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  font-weight: 700;
+  height: 60px;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+  width: 50%;
+}
+
+.buttonNextQuestions:hover {
+  background-color: rgb(52, 64, 75);
+  color: white;
+  scale: 1.08;
+}
+
+.buttonNextQuestions:active {
+  background-color: #282c34;
+  color: white;
+  scale: 0.9;
+}

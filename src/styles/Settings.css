@@ -1,0 +1,87 @@
+.settings {
+  align-items: center;
+  background-image: url('https://i.ibb.co/k1k56tr/fundo-interroga-o.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-api {
+  align-items: center;
+  background-color: rgba(0, 17, 69, 0.933);
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 white;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: center;
+  margin: 100px auto;
+  width: 600px;
+}
+
+.form-api h1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.form-api label {
+  color: white;
+  font-size: 22px;
+  margin-left: 20%;
+  margin-bottom: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.form-api input:first-of-type {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  height: 25px;
+  padding: 5px;
+  width: 60px;
+}
+
+.form-api select {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  height: 35px;
+  padding: 5px;
+}
+
+.settings button {
+  background-color: rgb(230, 138, 46);
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  color: white;
+  font-size: 18px;
+  height: 35px;
+  margin-top: 40px;
+  padding: 5px;
+  width: 80%;
+}
+
+.settings button:hover {
+  background-color: rgb(238, 125, 12);
+  box-shadow: none;
+  scale: 1.1;
+}
+
+.settings button:active {
+  box-shadow: white 5px 5px 10px 5px;
+  color: white;
+  scale: 1.1;
+}
